@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T01:57:24.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="netLzT3xCb0tDeArif4Y" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T01:58:16.052Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="5RKBIiZQ7vEusCeTj3DO" version="18.0.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1194" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LrpCRTIKNoxcV90RqwvY-44" value="8、循环测试" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" vertex="1" parent="1">
-          <mxGeometry x="50" y="350" width="780" height="430" as="geometry" />
+          <mxGeometry x="50" y="350" width="780" height="350" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Fastbot 服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="40" width="100" height="730" as="geometry" />
@@ -158,7 +158,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LrpCRTIKNoxcV90RqwvY-49" value="8.7、当发生Crash时，&lt;br&gt;将日志信息缓存到Cache，&lt;br&gt;等下次App启动时上报。" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LrpCRTIKNoxcV90RqwvY-48">
+        <mxCell id="LrpCRTIKNoxcV90RqwvY-49" value="8.7、如果发生Crash，&lt;br&gt;将日志缓存到Cache中，&lt;br&gt;等下次App启动时上报。" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LrpCRTIKNoxcV90RqwvY-48">
           <mxGeometry x="-0.1574" y="1" relative="1" as="geometry">
             <mxPoint x="79" y="2" as="offset" />
           </mxGeometry>
